@@ -2,5 +2,5 @@
 define('SVName','localhost');
 define('USRname','root');
 define('DBpass','');
-define('DBName','asm');
+define('DBName','duannhombon');
 // define("DBNAME","mydata"); 
