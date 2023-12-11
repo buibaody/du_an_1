@@ -1,0 +1,109 @@
+
+    .product_insert {
+    margin: 20px;
+}
+
+.product_insert table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product_insert th {
+    width: auto;
+    height:auto;
+}
+
+.product_insert td {
+    padding: 10px;
+    text-align: center;
+}
+
+.product_insert th {
+    background-color: #226C2F;
+    color: white;
+}
+
+.product_insert th:nth-child(2) {
+    width: 100px;
+}
+
+.product_insert img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product_insert a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.product_insert a:hover {
+    text-decoration: underline;
+}
+
+.product_insert .delete-button {
+    background-color: #226C2F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product_insert .delete-button:hover {
+    background-color: #cc0000;
+}
+
+.signup_big {
+    background: #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #226C2F;
+    border-radius: 5px;
+}
+
+.login_menu {
+    margin-top: 20px;
+}
+
+.login_title {
+    text-align: center;
+    color: #226C2F;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #226C2F;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn input[type="submit"] {
+    background-color: #226C2F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

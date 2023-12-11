@@ -1,0 +1,51 @@
+    /* CSS cho bảng sản phẩm */
+.product_insert {
+    margin: 20px;
+}
+
+.product_insert table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product_insert th,
+.product_insert td {
+    padding: 10px;
+    text-align: center;
+}
+
+.product_insert th {
+    background-color: #226C2F;
+    color: white;
+}
+
+.product_insert th:nth-child(2) {
+    width: 100px;
+}
+
+.product_insert img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.product_insert a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.product_insert a:hover {
+    text-decoration: underline;
+}
+
+.product_insert .delete-button {
+    background-color: #226C2F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product_insert .delete-button:hover {
+    background-color: #cc0000;
+}
